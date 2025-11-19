@@ -114,6 +114,7 @@ Character	Encoding
 L	7'b1000110
 U	7'b0001000
 🎛 Basys 3 XDC Constraints
+```
 ## Switches
 set_property PACKAGE_PIN V17 [get_ports {sw[0]}]
 set_property PACKAGE_PIN V16 [get_ports {sw[1]}]
@@ -136,8 +137,8 @@ set_property PACKAGE_PIN U6  [get_ports {seg[4]}]
 set_property PACKAGE_PIN V6  [get_ports {seg[5]}]
 set_property PACKAGE_PIN U5  [get_ports {seg[6]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {seg[*]}]
+```
 
-📁 Recommended GitHub Project Structure
 HomeSecurity_FPGA/
 │
 ├── src/
