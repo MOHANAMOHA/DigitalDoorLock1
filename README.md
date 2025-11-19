@@ -95,9 +95,8 @@ Below is the waveform generated from your simulation:
 
 🔍 Uploaded Simulation Screenshot
 
-(This image will appear automatically in your GitHub repository once you upload it)
+![WhatsApp Image 2025-11-20 at 00 34 57](https://github.com/user-attachments/assets/8932c6a3-a7d2-43f0-9b40-6c0e0df58e45)
 
-/mnt/data/WhatsApp Image 2025-11-20 at 00.34.57.jpeg
 
 ✔ Expected Behavior in Waveform
 Input (SW)	Result	LED Unlock	LED Alarm	7-Seg
