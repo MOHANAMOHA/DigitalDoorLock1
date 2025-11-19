@@ -24,6 +24,7 @@ L → Locked
 ✔ Ready-to-run on Basys 3 FPGA
 
 📌 Top Module – home_security_top.v
+```
 module home_security_top (
     input  [3:0] sw,             // Password input
     output reg led_unlock,       // Unlock LED
@@ -50,8 +51,9 @@ module home_security_top (
     assign seg = seg_data;
 
 endmodule
-
+```
 🧪 Testbench – tb_home_security.v
+```
 `timescale 1ns/1ps
 
 module tb_home_security;
@@ -88,7 +90,7 @@ module tb_home_security;
     end
 
 endmodule
-
+```
 📊 Simulation Waveform (Vivado)
 
 Below is the waveform generated from your simulation:
@@ -99,11 +101,11 @@ Below is the waveform generated from your simulation:
 
 
 ✔ Expected Behavior in Waveform
-Input (SW)	Result	LED Unlock	LED Alarm	7-Seg
+**Input (SW)	Result	LED Unlock	LED Alarm	7-Seg
 0000	Wrong	0	1	L
 1010	Correct	1	0	U
 1111	Wrong	0	1	L
-1010	Correct	1	0	U
+1010	Correct	1	0	U**
 
 Your screenshot confirms this exact behavior.
 
