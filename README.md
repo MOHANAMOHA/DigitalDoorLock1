@@ -1,4 +1,4 @@
-🏠 Home Security System – Verilog | Basys 3 FPGA
+***🏠 Home Security System – Verilog | Basys 3 FPGA***
 
 This project implements a simple Home Security System using the Basys 3 FPGA.
 It uses 4 switches as a password, LED indicators for unlock/alarm, and a seven-segment display to show the lock status.
